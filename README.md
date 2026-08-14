@@ -6,6 +6,17 @@ A modern movie and TV series discovery platform built with **React**, **TypeScri
 
 ---
 
+## 🌟 Features
+
+- 🔍 Search movies and TV series instantly
+- 🎬 Browse trending entertainment content
+- 📱 Fully responsive design
+- ⚡ Fast and interactive user interface
+- 🎨 Modern UI built with Tailwind CSS
+- 🔄 Real-time API integration
+- 🌙 Clean and user-friendly experience
+
+---
 
 
 ## 🛠️ Tech Stack
