@@ -112,28 +112,7 @@ const Navigation = () => {
                 </Link>
               ))}
               
-              {user ? (
-                <div className="border-t border-gray-700 pt-3 mt-3">
-                  <div className="px-3 py-2 text-gray-300">Welcome, {user.name}</div>
-                  <Button
-                    onClick={handleLogout}
-                    variant="ghost"
-                    className="w-full justify-start text-gray-300 hover:text-white"
-                  >
-                    <LogOut className="w-4 h-4 mr-2" />
-                    Logout
-                  </Button>
-                </div>
-              ) : (
-                <div className="border-t border-gray-700 pt-3 mt-3">
-                  <Link to="/login" onClick={() => setIsMenuOpen(false)}>
-                    <Button className="w-full bg-red-600 hover:bg-red-700">
-                      <User className="w-4 h-4 mr-2" />
-                      Sign In
-                    </Button>
-                  </Link>
-                </div>
-              )}
+             
             </div>
           </div>
         )}
