@@ -61,7 +61,11 @@ const MovieCard = ({ movie, onToggleFavorite, isFavorite = false }) => {
           )}
 
           {/* Rating Badge */}
-         
+          <div className="absolute top-2 left-2 bg-black/70 text-white px-2 py-1 rounded-md text-xs font-semibold flex items-center space-x-1">
+            <Star className="w-3 h-3 text-yellow-400 fill-current" />
+            <span>{movie.vote_average.toFixed(1)}</span>
+          </div>
+        </div>
 
         {/* Movie Info */}
         <div className="p-4">
