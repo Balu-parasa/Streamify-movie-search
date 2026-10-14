@@ -118,15 +118,3 @@ During this project I gained practical experience in:
 - Recommendation Engine
 
 ---
-
-## 👨‍💻 Author
-
-**Parasa Balu Lakshman Pavan**
-
-🔗 LinkedIn: https://linkedin.com/in/balu-parasa
-
-💻 GitHub: https://github.com/Balu-parasa
-
----
-
-⭐ If you found this project interesting, consider giving it a star!
